@@ -19,7 +19,7 @@ node{
         git branch: 'main',
             credentialsId: '5eeb9d60-91af-41f4-a9fd-d81c5a636453',
             url: 'https://github.com/annurunazeer/maven-web-application-master.git'
-    }
+    } /*
 
     stage('Build') {
         bat "${maven}\\bin\\mvn clean package"
@@ -31,5 +31,5 @@ node{
 
     stage('Upload Artifact into Nexus') {
         bat "${maven}\\bin\\mvn deploy"
-    }
+    } */
 }
